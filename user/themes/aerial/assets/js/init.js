@@ -5,7 +5,7 @@
 */
 
 (function() {
-
+var theme_url = 'user/themes/aerial';
 	skel.init({
 		reset: 'full',
 		breakpoints: {
