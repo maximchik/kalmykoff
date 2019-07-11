@@ -5,15 +5,15 @@
 */
 
 (function() {
-var theme_url = 'user/themes/aerial';
+//var theme_url = 'user/themes/aerial';
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'global': { range: '*', href: theme_url + '../../../../../assets/css/style.css', viewport: { scalable: false } },
-			'wide': { range: '-1680', href: theme_url + '../../../../../assets/css/style-wide.css' },
-			'normal': { range: '-1280', href: theme_url + '../../../../../assets/css/style-normal.css' },
-			'mobile': { range: '-736', href: theme_url + '../../../../../assets/css/style-mobile.css' },
-			'mobilep': { range: '-480', href: theme_url + '../../../../../assets/css/style-mobilep.css' }
+			'global': { range: '*', href: theme_url + '/assets/css/style.css', viewport: { scalable: false } },
+			'wide': { range: '-1680', href: theme_url + '/assets/css/style-wide.css' },
+			'normal': { range: '-1280', href: theme_url + '/assets/css/style-normal.css' },
+			'mobile': { range: '-736', href: theme_url + '/assets/css/style-mobile.css' },
+			'mobilep': { range: '-480', href: theme_url + '/assets/css/style-mobilep.css' }
 		}
 	});
 
