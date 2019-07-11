@@ -20,7 +20,7 @@ function openPhoto(url) {
 }
 
 function loadPhoto(url) {
-	$('#full-scr-photo').css({'backgroundImage': 'url('+themePath+'../../../../../../img/spin.gif)', 'background-size':'56px 56px'});
+	$('#full-scr-photo').css({'backgroundImage': 'url('+themePath+'/img/spin.gif)', 'background-size':'56px 56px'});
 //	$('#full-scr-photo').prepend('<img class="spin" src="'+themePath+'../../../../../../img/spin.gif"/>');
 	$('#full-scr-photo').prepend('<img id="loadingImg" src="'+url+'" class="hidden"/>');
 	$('#loadingImg').load(function() {
